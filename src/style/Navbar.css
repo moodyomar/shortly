@@ -1,0 +1,18 @@
+.Navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+}
+.logo{
+
+}
+.navlinks{
+background-color: #3A3053;
+color: #fff;
+
+list-style-type: none;
+position: absolute;
+}
+.login-signup{
+
+}

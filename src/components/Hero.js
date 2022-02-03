@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "../style/Hero.css"
 
 const Hero = () => { 
 
@@ -13,7 +13,9 @@ return(
   <button className='btn primary round'>Get Started</button>
 </div>
 <div className="right-col">
-ads
+  <div className="illustration-working">
+
+  </div>
 </div>
 </div>
 

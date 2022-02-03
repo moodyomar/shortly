@@ -1,0 +1,18 @@
+.Hero{
+  display: flex;
+  flex-direction: column;
+}
+.left-col{
+order: 1;
+}
+.right-col{
+width:100vw;
+height:400px;
+}
+.illustration-working{
+width: 80%;
+height: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url(../images//illustration-working.svg);
+}
