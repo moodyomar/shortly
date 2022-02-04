@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header>
         <Navbar />
-        {/* <Header /> */}
+        <Header />
       </header>
 
       <main>

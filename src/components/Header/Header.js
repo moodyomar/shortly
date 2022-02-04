@@ -1,4 +1,5 @@
 import React from 'react';
+import header_image from '../../images/illustration-working.svg'
 import "./header.css"
 
 const Header = () => { 
@@ -7,15 +8,15 @@ return(
 
 <div className='Header'>
 <div className="left-col">
-<h1>More than just shorter links</h1>
+<div className="content">
+<h1>More than just<br/>shorter links</h1>
 <p>Build your brand’s recognition and get detailed insights 
   on how your links are performing.</p>
-  <button className='btn primary round'>Get Started</button>
+  <button className='btn btn-primary round-max'>Get Started</button>
+</div>
 </div>
 <div className="right-col">
-  <div className="illustration-working">
-
-  </div>
+<img src={header_image} alt="working man" />
 </div>
 </div>
 
