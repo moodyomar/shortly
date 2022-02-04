@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
+import {Buttons,Links} from './NavItems';
+
 import "./navbar.css"
 import logo from '../../images/logo.svg'
+import {RiMenuLine,RiCloseLine} from 'react-icons/ri'
 
 const Navbar = () => { 
+
+let [toggleMenu,setToggleMenu] = useState(false);
 
 return(
 
@@ -10,20 +15,30 @@ return(
   
 <div className="logo"><img src={logo} alt="logo"/></div>
 
-<ul className="navlinks">
-  <li><a href="#features">Features</a></li>
-  <li><a href="#pricing">Pricing</a></li>
-  <li><a href="#resources">Resources</a></li>
+  <ul className="navlinks">
+<Links/>
 </ul>
 
 <div className="login-signup">
-  <button className='btn btn-login'>Login</button>
-  <button className='btn btn-primary round'>Sign Up</button>
+<Buttons/>
+</div>
+
+<div className="mobile-nav">
+{!toggleMenu
+? <RiMenuLine size={30} onClick={() => setToggleMenu(true)} />
+: <RiCloseLine size={30} onClick={() => setToggleMenu(false)} />
+}
+{toggleMenu && (
+<div className="mobile-links fade-in-top">
+<Links/>
+<Buttons/>
+</div>
+)}
 </div>
 
 </nav>
 
 )
 }
-
+ 
 export default Navbar
