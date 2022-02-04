@@ -1,11 +1,11 @@
 import React from 'react';
-import "../style/Hero.css"
+import "./header.css"
 
-const Hero = () => { 
+const Header = () => { 
 
 return(
 
-<div className='Hero'>
+<div className='Header'>
 <div className="left-col">
 <h1>More than just shorter links</h1>
 <p>Build your brand’s recognition and get detailed insights 
@@ -22,4 +22,4 @@ return(
 )
 }
 
-export default Hero
+export default Header

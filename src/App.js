@@ -1,14 +1,22 @@
-import './style/Main.css';
-import Hero from './components/Hero';
-import Navbar from './components/Navbar';
-import Navbar2 from './components/Navbar2/Navbar2';
+import {Header,Navbar,Shortner} from './components'
+import './index.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      {/* <Hero/> */}
-      {/* <Navbar2/> */}
+      <header>
+        <Navbar />
+        <Header />
+      </header>
+
+      <main>
+        <Shortner />
+      </main>
+
+      <footer>
+
+      </footer>
+
     </div>
   );
 }
