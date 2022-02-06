@@ -47,11 +47,20 @@ font-family: var(--Font-family);
   background-color: transparent;
   cursor: pointer;
   font-weight: 600;
-  color: var(--Grayish-Violet);
+  color: var(--Gray);
+  transition: all .2s ease-out;
+  }
+  .btn:hover{
+    color: var(--Grayish-Violet);
   }
   .btn-primary{
   background-color: var(--Cyan);
   color: #fff;
+  }
+  .btn-primary:hover{
+background-color: hsl(180, 85%, 35%);
+color: #fff;
+transition: all .3s ease-in;
   }
   .round-max{
     border-radius: 20px;

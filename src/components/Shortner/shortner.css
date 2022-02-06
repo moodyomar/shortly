@@ -29,7 +29,7 @@ background-color: var(--Dark-Violet);
   padding-left: 15px;
 }
 
-@media screen and (max-width:550px){
+@media screen and (max-width:700px){
   .Shortner .container{
   flex-direction: column;
   display: flex;

@@ -16,6 +16,7 @@ export const Buttons = () => {
 
   return (
     <>
+    <hr />
       <button className='btn'>Login</button>
       <button className='btn btn-primary round-max'>Sign Up</button>
     </>

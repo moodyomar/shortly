@@ -5,6 +5,12 @@ height: 220px;
 background-color: #fff;
 padding: 25px;
 border-radius: 7px;
+box-shadow: 3px 7px 15px 1px rgba(0, 0, 0, 0.15);
+transition: all .3s ease-out;
+}
+.Card:hover{
+  transition: all .3s ease-in;
+  transform: scale(1.02);
 }
 .Card:nth-child(3){
   margin-top: 25px;
@@ -36,7 +42,7 @@ text-align: left;
 width: 50%;
 }
 
-@media screen and (max-width:550px){
+@media screen and (max-width:700px){
   .Card .icon{
     position: absolute;
     margin-left: 95px;
