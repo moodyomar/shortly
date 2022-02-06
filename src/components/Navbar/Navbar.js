@@ -28,12 +28,12 @@ return(
 ? <RiMenuLine size={30} onClick={() => setToggleMenu(true)} />
 : <RiCloseLine size={30} onClick={() => setToggleMenu(false)} />
 }
-{toggleMenu && (
-<div className="mobile-links fade-in-top">
+
+<div className={`mobile-links ${toggleMenu ? 'fade-in-top' : 'fade-in-bottom'}`}>
 <Links/>
 <Buttons/>
 </div>
-)}
+
 </div>
 
 </nav>
