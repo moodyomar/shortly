@@ -37,3 +37,19 @@ text-decoration: none;
   text-decoration: none;
   color: #000;
 }
+
+@media screen and (max-width:700px){
+  .Shortened{
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 180px;
+  }
+  .resultLink-container{
+    display: flex;
+    height: 40%;
+    flex-direction: column;
+  }
+  .btn .copyBtn{
+    width: 100%;
+  }
+}
