@@ -1,0 +1,53 @@
+.AdvancedTactics{
+width: 100vw;
+background-color: #EFF1F7;
+padding-top: 150px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.AdvancedTactics h2{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.AdvancedTactics p{
+width: 700px;
+text-align: center;
+}
+.cards{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+.line{
+  position: absolute;
+  margin-top: 110px;
+  width: 70%;
+  height: 8px;
+  background-color: var(--Cyan);
+}
+
+@media screen and (max-width:550px){
+  .AdvancedTactics{
+    }
+    .AdvancedTactics h2{
+      font-size: 2rem;
+    }
+    .AdvancedTactics p{
+    width: 300px;
+    text-align: center;
+    }
+    .cards{
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 50px 0;
+    }
+    .line{
+      width: 8px;
+      height: 600px;
+    }
+}

@@ -1,0 +1,51 @@
+.Card{
+z-index: 1;
+width: 300px;
+height: 220px;
+background-color: #fff;
+padding: 25px;
+border-radius: 7px;
+}
+.Card:nth-child(3){
+  margin-top: 25px;
+}
+.Card:nth-child(4){
+  margin-top: 50px;
+}
+.Card h2{
+  padding-top: 20px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+.Card p{
+width: 100%;
+font-size: 0.85rem;
+text-align: left;
+}
+.Card .icon{
+  position: absolute;
+  margin-top: -55px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  display: grid;
+  place-items: center;
+  background-color: var(--Dark-Violet);
+}
+.Card .icon img{
+width: 50%;
+}
+
+@media screen and (max-width:550px){
+  .Card .icon{
+    position: absolute;
+    margin-left: 95px;
+  }
+  .Card:nth-child(3),
+  .Card:nth-child(4){
+    margin-top: 0;
+  }  
+  .Card{
+    margin-bottom: 70px;
+  }
+}
