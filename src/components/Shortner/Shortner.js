@@ -35,7 +35,7 @@ return(
 </div>
 { data &&
 <Shortened originalLink={data.original_link}
-resultLink={data.short_link} />
+resultLink={data.full_short_link} />
 }
 </>
 )
