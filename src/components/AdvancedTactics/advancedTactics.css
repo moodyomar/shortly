@@ -30,8 +30,6 @@ text-align: center;
 }
 
 @media screen and (max-width:550px){
-  .AdvancedTactics{
-    }
     .AdvancedTactics h2{
       font-size: 2rem;
     }

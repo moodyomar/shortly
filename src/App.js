@@ -1,5 +1,6 @@
 import {Header,Navbar,Shortner} from './components'
 import AdvancedTactics from './components/AdvancedTactics/AdvancedTactics';
+import BoostLinks from './components/BoostLinks/BoostLinks';
 import './index.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Shortner />
         <AdvancedTactics/>
+        <BoostLinks/>
       </main>
 
       <footer>

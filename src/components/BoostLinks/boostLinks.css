@@ -1,0 +1,31 @@
+.BoostLinks{
+  width: 100vw;
+  height: 250px;
+  background-image: url(../../images/bg-boost-desktop.svg);
+  background-size: cover;
+  background-color: var(--Dark-Violet);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.BoostLinks h2{
+font-size: 1.8rem;
+margin-bottom: 1.5rem;
+}
+.BoostLinks .btn{
+  width: 120px;
+}
+
+@media screen and (max-width:550px){
+  .BoostLinks h2{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    }
+    .BoostLinks .btn{
+      width: 180px;
+      height: 50px;
+      border-radius: 30px;
+    } 
+}
