@@ -2,8 +2,10 @@
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  margin-bottom: 10px;
   width: 100vw;
-  height: 65px;
+  position: relative;
+  top: 75px;
 }
 .Shortner .container{
 display: flex;
@@ -28,7 +30,14 @@ background-color: var(--Dark-Violet);
   border-radius: 5px;
   padding-left: 15px;
 }
-
+.btn:disabled{
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: var(--Gray);
+}
+.btn:disabled:hover{
+  background-color: var(--Gray);
+}
 @media screen and (max-width:700px){
   .Shortner .container{
   flex-direction: column;
