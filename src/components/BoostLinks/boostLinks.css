@@ -2,7 +2,6 @@
   width: 100vw;
   height: 250px;
   background-image: url(../../images/bg-boost-desktop.svg);
-  background-size: cover;
   background-color: var(--Dark-Violet);
   color: #fff;
   display: flex;
