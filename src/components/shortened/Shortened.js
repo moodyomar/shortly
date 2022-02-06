@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './shortened.css'
 
 const Shortened = ({originalLink,resultLink}) => { 
 
-const copyLink = () => {
+const [copy,setCopy] = useState(false);
 
+const copyLink = (resultLink) => {
+  navigator.clipboard.writeText(resultLink)
+  setCopy(true);
 }
 
 return(
@@ -14,8 +17,13 @@ return(
 <a href={originalLink} className="originalLink">{originalLink}</a>
 <div className="resultLink-container">
 <a href={resultLink} target="_blank" className="resultLink">{resultLink}</a>
-<button className="btn btn-primary round-med copyBtn"
-onClick={() => copyLink()}>Copy</button>
+{
+  copy 
+  ? <button className="btn btn-dark round-med copyBtn"
+  onClick={() => copyLink(resultLink)}>Copied !</button>
+  : <button className="btn btn-primary round-med copyBtn"
+  onClick={() => copyLink(resultLink)}>Copy</button>
+}
 </div>
 </div>
 </div>

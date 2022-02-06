@@ -57,6 +57,9 @@ font-family: var(--Font-family);
   background-color: var(--Cyan);
   color: #fff;
   }
+  .btn-dark{
+    background-color: var(--Very-Dark-Violet);
+  }
   .btn-primary:hover{
 background-color: hsl(180, 85%, 35%);
 color: #fff;
