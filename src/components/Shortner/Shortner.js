@@ -5,8 +5,11 @@ const Shortner = () => {
 
 return(
 
-<div className=''>
-<h1>Shortner</h1>
+<div className='Shortner'>
+<div className="container">
+<input type="text" placeholder='Shorten a link here...' />
+<button className='btn btn-primary round-med'>Shorten it!</button>
+</div>
 </div>
 
 )

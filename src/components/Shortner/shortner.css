@@ -1,0 +1,44 @@
+.Shortner{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100vw;
+  height: 100px;
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 75%;
+height: 125px;
+border-radius: 10px;
+background-image: url(../../images/bg-shorten-desktop.svg);
+background-color: var(--Dark-Violet);
+}
+.container .btn{
+  height: 40px;
+  width: 100px;
+}
+.container input{
+  width: 40vw;
+  margin-right: 15px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+@media screen and (max-width:550px){
+.container{
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+}
+.container .btn,
+.container input{
+  height: 40px;
+  width: 65vw;
+  margin: 0;
+}
+}

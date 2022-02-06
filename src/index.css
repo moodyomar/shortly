@@ -43,8 +43,8 @@ font-family: var(--Font-family);
 .btn{
   border: none;
   outline: none;
-  width: 85px;
-  height: 30px;
+  width: 90px;
+  height: 35px;
   background-color: transparent;
   cursor: pointer;
   font-weight: 600;
@@ -55,7 +55,7 @@ font-family: var(--Font-family);
   color: #fff;
   }
   .round-max{
-    border-radius: 15px;
+    border-radius: 20px;
   }
   .round-med{
     border-radius: 5px;

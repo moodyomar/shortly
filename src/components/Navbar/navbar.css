@@ -38,6 +38,9 @@
 
 
   @media screen and (max-width:550px){
+    .Navbar{
+      padding: 3rem 2rem;
+    }
     .navlinks{
 display: none;
       }
