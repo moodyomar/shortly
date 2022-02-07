@@ -18,6 +18,7 @@
     opacity: 0.5;
     height: 1px;
     margin: 10px 0;
+    display: none;
   }
   .navlinks{
   display: flex;
@@ -46,6 +47,9 @@
   @media screen and (max-width:700px){
     .Navbar{
       padding: 3rem 2rem;
+    }
+    .Navbar hr{
+      display: flex;
     }
     .navlinks{
 display: none;
