@@ -17,7 +17,7 @@ return(
   </div>
   <div className="col col-1">
     <ul>
-      <strong><li>Features</li></strong>
+      <li>Features</li>
       <li>Links Shortening</li>
       <li>Branded Links</li>
       <li>Analytics</li>
@@ -25,7 +25,7 @@ return(
   </div>
   <div className="col col-2">
     <ul>
-      <strong><li>Resources</li></strong>
+      <li>Resources</li>
       <li>Blog</li>
       <li>Developers</li>
       <li>Support</li>
@@ -33,7 +33,7 @@ return(
   </div>
   <div className="col col-3">
     <ul>
-      <strong><li>company</li></strong>
+      <li>Company</li>
       <li>About</li>
       <li>Our Team</li>
       <li>Careers</li>

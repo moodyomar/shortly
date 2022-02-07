@@ -16,11 +16,11 @@ return(
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui tempore pariatur quam est quaerat laudantium autem facere.</p>
 <div className="cards">
   <div className="line"></div>
-  <Card title={'Brand Recognition'} icon={brandRecognitionIcon}
+  <Card title={'Brand Recognition'} icon={brandRecognitionIcon} alt={brandRecognitionIcon}
    desc={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus inventore possimus odit accusamus quibusdam.'} />
-  <Card title={'Detailed Records'} icon={detailedRecordsIcon}
+  <Card title={'Detailed Records'} icon={detailedRecordsIcon} alt={detailedRecordsIcon}
    desc={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus inventore possimus odit accusamus quibusdam.'} />
-  <Card title={'Fully Customizable'} icon={fullyCustomizableIcon}
+  <Card title={'Fully Customizable'} icon={fullyCustomizableIcon} alt={fullyCustomizableIcon}
    desc={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus inventore possimus odit accusamus quibusdam.'} />
 </div>
 
