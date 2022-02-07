@@ -6,6 +6,10 @@
   align-items: center;
   padding: 3rem 5rem;
   }
+  .Navbar ul{
+    list-style-type: none;
+    display: flex;
+  }
   .logo{
   flex:1;
   display: flex;
