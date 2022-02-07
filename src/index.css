@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border:0.5px solid rgba(255, 0, 0, 0.332); */
+  scroll-behavior: smooth;
 }
 
 :root{

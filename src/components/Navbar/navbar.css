@@ -76,7 +76,10 @@ border-radius: 10px;
 transition: all .3s ease-out;
 visibility: hidden;
 }
-
+.mobile-links ul{
+  flex-direction: column;
+  text-align: center;
+}
 .mobile-links button
 ,.mobile-links li{
   margin: 10px 0px;
