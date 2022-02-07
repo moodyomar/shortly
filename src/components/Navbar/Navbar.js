@@ -15,9 +15,9 @@ return(
   
 <div className="logo"><img src={logo} alt="logo"/></div>
 
-  <ul className="navlinks">
+  <div className="navlinks">
 <Links/>
-</ul>
+</div>
 
 <div className="login-signup">
 <Buttons/>
