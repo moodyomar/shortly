@@ -45,7 +45,7 @@ width: 50%;
 @media screen and (max-width:700px){
   .Card{
     margin-bottom: 70px;
-    width: 300px !important;
+    width: 290px !important;
     height: 200px;
   }
   .Card .icon{
@@ -58,9 +58,11 @@ width: 50%;
   }  
   .Card h2{
     font-size: 1.1rem;
+    text-align: center;
   }
   .Card p{
   font-size: 0.85rem;
+  text-align: center;
   }
 }
 
