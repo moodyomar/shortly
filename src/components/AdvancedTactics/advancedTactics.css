@@ -49,3 +49,9 @@ text-align: center;
       height: 600px;
     }
 }
+
+@media screen and (max-width:1233px){
+  .cards{
+    width: 85%;
+  }
+}

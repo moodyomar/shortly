@@ -44,12 +44,19 @@ background-color: var(--Dark-Violet);
   display: flex;
   gap: 15px;
   background-image: url(../../images/bg-shorten-mobile.svg);
-
 }
 .container .btn,
 .container input{
   height: 40px;
-  width: 65vw;
   margin: 0;
+}
+}
+
+@media screen and (max-width:1233px){
+  .Shortner .container{
+    width: 85%;
+  }
+.container input{
+  width: 70%;
 }
 }

@@ -18,6 +18,7 @@ return(
 <div className="shortned-container">
 <div className='Shortened'>
 <a href={originalLink} className="originalLink">{originalLink}</a>
+<hr style={{width:"100%"}} />
 <div className="resultLink-container">
 <a href={resultLink} target="_blank" rel="noreferrer" className="resultLink">{resultLink}</a>
 {

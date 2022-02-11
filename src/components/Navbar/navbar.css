@@ -108,6 +108,11 @@ display: none;
       }
   }
 
+  @media screen and (max-width:1233px){
+    .logo{
+      margin-right: 1rem;
+      }
+  }
 
 /* animista */
   .fade-in-top {

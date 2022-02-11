@@ -23,7 +23,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 25%;
+  width: 33%;
 }
 .resultLink{
   color: var(--Cyan);
@@ -37,7 +37,9 @@ text-decoration: none;
   text-decoration: none;
   color: #000;
 }
-
+hr{
+  display: none;
+}
 @media screen and (max-width:700px){
   .Shortened{
     flex-direction: column;
@@ -51,5 +53,17 @@ text-decoration: none;
   }
   .btn .copyBtn{
     width: 100%;
+  }
+  hr{
+    display: block !important;
+  }
+}
+
+@media screen and (max-width:1233px){
+  .resultLink-container{
+    width: 50%;
+  }
+  .Shortened{
+    width: 85%;
   }
 }

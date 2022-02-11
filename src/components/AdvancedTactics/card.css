@@ -13,10 +13,10 @@ transition: all .3s ease-out;
   transform: scale(1.02);
 }
 .Card:nth-child(3){
-  margin-top: 25px;
+  margin-top: 30px;
 }
 .Card:nth-child(4){
-  margin-top: 50px;
+  margin-top: 60px;
 }
 .Card h2{
   padding-top: 20px;
@@ -43,6 +43,11 @@ width: 50%;
 }
 
 @media screen and (max-width:700px){
+  .Card{
+    margin-bottom: 70px;
+    width: 300px !important;
+    height: 200px;
+  }
   .Card .icon{
     position: absolute;
     margin-left: 95px;
@@ -51,16 +56,25 @@ width: 50%;
   .Card:nth-child(4){
     margin-top: 0;
   }  
-  .Card{
-    margin-bottom: 70px;
-    width: 300px;
-    height: 220px;
-  }
   .Card h2{
     font-size: 1.1rem;
   }
   .Card p{
   font-size: 0.85rem;
+  }
+}
+
+@media screen and (max-width:1233px){
+  .Card{
+    width: 250px;
+    height: 225px;
+    margin-right: 10px;
+  }
+  .Card h2{
+    font-size: 1rem;
+  }
+  .Card p{
+    font-size: 0.75rem;
   }
   .Card .icon{
     margin-top: -55px;
