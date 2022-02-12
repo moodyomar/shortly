@@ -33,10 +33,11 @@ width: 70%;
 @media screen and (max-width:700px){
 .Header{
   flex-direction: column;
-  padding: 0 2.5rem;
+  padding: 0 2rem;
 }
 h1{
-  font-size: 2.1rem !important;
+  font-size: 2.2rem !important;
+  text-align: center;
   }
   p{
   color: var(--Grayish-Violet);
@@ -46,10 +47,11 @@ h1{
   width: 80%;
   }
   .Header .btn{
-    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 0.9rem;
   }
   .left-col,.right-col{
-    display: flex;
     width: 100%;
   }
   .left-col{
@@ -62,9 +64,11 @@ align-items: center;
   }
   .right-col{
 order: 1;
+width: 100vw;
   }
   .right-col img{
-    width: 100%;
+    align-items: center;
+    /* width: 110vw !important; */
   }
 }
 
@@ -82,6 +86,7 @@ order: 1;
   }
   .Header .btn{
     width: 100px;
+    width: 135px;
   }
   
   .right-col img{

@@ -106,15 +106,7 @@ display: none;
       .mobile-nav{
         display: flex;
       }
-  }
-
-  @media screen and (max-width:1233px){
-    .logo{
-      margin-right: 1rem;
-      }
-  }
-
-/* animista */
+      /* animista */
   .fade-in-top {
     visibility: visible;
     -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -124,6 +116,13 @@ display: none;
     -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     visibility: hidden;
+  }
+  }
+
+  @media screen and (max-width:1233px){
+    .logo{
+      margin-right: 1rem;
+      }
   }
   
    @-webkit-keyframes fade-in-top {
