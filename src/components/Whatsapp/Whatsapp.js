@@ -1,4 +1,3 @@
-import axios from 'axios';
 import React, { useState } from 'react';
 import Shortened from '../shortened/Shortened';
 import './Whatsapp.css'
@@ -36,7 +35,7 @@ return(
 </div>
 </div>
 { showLink &&
-<Shortened mt={'50px'} originalLink={`Messge to ${phoneNum}`} resultLink={msgLink} />
+<Shortened mt={'50px'} originalLink={msgLink} resultLink={`Click to copy`} />
 }
 </>
 )
