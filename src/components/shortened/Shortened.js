@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './shortened.css'
 
-const Shortened = ({originalLink,resultLink}) => { 
+const Shortened = ({originalLink,resultLink,mt}) => { 
 
 const [copy,setCopy] = useState(false);
 
@@ -16,7 +16,7 @@ const copyLink = (resultLink) => {
 return(
 
 <div className="shortned-container">
-<div className='Shortened'>
+<div className='Shortened' style={{marginTop:mt}}>
 <a href={originalLink} className="originalLink">{originalLink}</a>
 <hr style={{width:"100%"}} />
 <div className="resultLink-container">
