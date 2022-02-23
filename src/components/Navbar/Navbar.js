@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import {Buttons,Links} from './NavItems';
-
-import "./navbar.css"
+import { Link } from "react-router-dom";
 import logo from '../../images/logo.svg'
 import {RiMenuLine,RiCloseLine} from 'react-icons/ri'
+import "./navbar.css"
 
 const Navbar = () => { 
 
@@ -13,7 +13,7 @@ return(
 
 <nav className='Navbar'>
   
-<div className="logo"><img src={logo} alt="logo"/></div>
+<div className="logo"><Link to="/"><img src={logo} alt="logo"/></Link></div>
 
   <div className="navlinks">
 <Links/>

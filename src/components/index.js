@@ -1,3 +1,6 @@
 export {default as Navbar} from './Navbar/Navbar'
 export {default as Header} from './Header/Header'
 export {default as Shortner} from './Shortner/Shortner'
+export {default as AdvancedTactics} from './AdvancedTactics/AdvancedTactics'
+export {default as BoostLinks} from './BoostLinks/BoostLinks'
+export {default as Footer} from './Footer/Footer'

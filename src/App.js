@@ -1,27 +1,23 @@
-import { Header, Navbar, Shortner } from './components'
-import AdvancedTactics from './components/AdvancedTactics/AdvancedTactics';
-import BoostLinks from './components/BoostLinks/BoostLinks';
-import Footer from './components/Footer/Footer';
+import {Home,Features,Pricing} from './pages'
+import { Navbar } from './components';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 import './index.css';
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <Navbar />
-        <Header />
-      </header>
-
-      <main>
-        <Shortner />
-        <AdvancedTactics />
-        <BoostLinks />
-      </main>
-
-      <footer>
-        <Footer />
-      </footer>
-
+    <BrowserRouter>
+    <Navbar />
+    <Routes>
+     <Route path="/" element={<Home />} />
+     <Route path="features" element={<Features />} />
+     <Route path="pricing" element={<Pricing />} />
+    </Routes>
+    </BrowserRouter>
     </div>
   );
 }
