@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {Buttons,Links} from './NavItems';
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from '../../images/logo.svg'
 import {RiMenuLine,RiCloseLine} from 'react-icons/ri'
 import "./navbar.css"
@@ -8,6 +8,11 @@ import "./navbar.css"
 const Navbar = () => { 
 
 let [toggleMenu,setToggleMenu] = useState(false);
+const {pathname} = useLocation();
+
+  useEffect(() => {
+    setToggleMenu(false)
+},[pathname])
 
 return(
 
