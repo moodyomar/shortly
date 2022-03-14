@@ -35,7 +35,7 @@ return(
 </div>
 </div>
 { showLink &&
-<Shortened mt={'50px'} originalLink={msgLink} resultLink={`Click to copy`} />
+<Shortened mt={'50px'} originalLink={msgLink} resultLink={msgLink} />
 }
 </>
 )
