@@ -6,7 +6,9 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
+html{
+  overflow-x: hidden;
+}
 :root{
 
 /* - Mobile: 375px */

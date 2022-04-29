@@ -1,0 +1,38 @@
+[
+    {
+        "cost":"Start",
+        "price":"$1.99",
+        "btnBg":"white",
+        "color":"",
+        "items":[
+            "450 Shortens",
+            "300 whatsapp links",
+            "3 Month Support"
+        ]
+        
+    },
+    {
+        "cost":"Standard",
+        "price":"$7.99",
+        "btnBg":"#2ACFCE",
+        "color":"white",
+        "items":[
+            "600 Shortens",
+            "400 whatsapp links",
+            "10 Months Support"
+        ]
+        
+    },
+    {
+        "cost":"Business",
+        "price":"$15.99",
+        "btnBg":"white",
+        "color":"",
+        "items":[
+            "1500 Shortens",
+            "700 whatsapp links",
+            "Unlimited Support"
+        ]
+        
+    }
+]
