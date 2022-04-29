@@ -5,7 +5,7 @@ const Card = ({icon,alt,title,desc,mt}) => {
 
 return(
 
-<div className='Card'>
+<div className='Card scale-eff'>
 <div className="icon">
       <img src={icon} alt={alt} />
     </div>

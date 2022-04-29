@@ -39,6 +39,11 @@ body{
 font-family: var(--Font-family);
 }
 
+.scale-eff:hover{
+  transition: all .3s ease-in;
+  transform: scale(1.02); 
+}
+
 .btn{
   border: none;
   outline: none;

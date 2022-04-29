@@ -1,3 +1,4 @@
+import Card from './Card'
 import './Plans.css'
 
 
@@ -9,20 +10,25 @@ const Plans = () => {
             <h1>Choose your plan</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis expedita doloribus, dignissimos quaerat.</p>
             <div className="period-btns">
-                <div className="monthly-btn">Monthly</div>
-                <div className="yearly-btn">Yearly</div>
+                <button className="monthly-btn btn btn-primary round-max">Monthly</button>
+                <button className="yearly-btn btn round-max">Yearly</button>
             </div>
             <div className="plans-cards">
-                <div className="plan-card">
-                    <h3 className='plan-status'>Free</h3>
-                    <h2 className='plan-price'>$0</h2>
-                    <ul className='plan-list'>
-                        <li>250 Shortens</li>
-                        <li>150 Whatsapp Links</li>
-                        <li>Extended free trial</li>
-                    </ul>
-                    <button>Create Account</button>
-                </div>
+                <Card cost={'Free'} price={'$0'} btnBg={'white'}>
+                    <li>250 Shortens</li>
+                    <li>150 whatsapp links</li>
+                    <li>1 Month Support</li>
+                </Card>
+                <Card cost={'Standard'} price={'$9.99'} btnBg={'#2ACFCE'} color={'white'}>
+                    <li>500 Shortens</li>
+                    <li>300 whatsapp links</li>
+                    <li>6 Months Support</li>
+                </Card>
+                <Card cost={'Business'} price={'$19.99'} btnBg={'white'}>
+                    <li>1000 Shortens</li>
+                    <li>500 whatsapp links</li>
+                    <li>Unlimited Support</li>
+                </Card>
             </div>
         </div>
 
