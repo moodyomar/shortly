@@ -1,4 +1,4 @@
-import { Header, Shortner,Footer,BoostLinks,AdvancedTactics }
+import { Header, Shortner,BoostLinks,AdvancedTactics }
  from '../../components'
  import working_man from '../../images/illustration-working.svg'
 
@@ -18,9 +18,6 @@ return(
       <AdvancedTactics />
       <BoostLinks />
     </main>
-    <footer>
-      <Footer />
-    </footer>
   </div>
 
 )

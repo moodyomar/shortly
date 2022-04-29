@@ -1,0 +1,21 @@
+.Plans {
+    width: 100vw;
+    background-color: #EFF1F7;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 290px;
+    height: 410px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 40, 100, 0.25);
+    border-radius: 16px;
+    padding: 20px 20px;
+}

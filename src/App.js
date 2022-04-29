@@ -1,5 +1,5 @@
 import {Home,Features,Pricing} from './pages'
-import { Navbar } from './components';
+import { Footer, Navbar } from './components';
 import {
   BrowserRouter,
   Routes,
@@ -17,6 +17,9 @@ function App() {
      <Route path="features" element={<Features />} />
      <Route path="pricing" element={<Pricing />} />
     </Routes>
+    <footer>
+      <Footer />
+    </footer>
     </BrowserRouter>
     </div>
   );

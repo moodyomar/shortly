@@ -1,6 +1,6 @@
 // import './Features.css'
 import working_man from '../../images/Chat-pana.svg'
-import {AdvancedTactics, Footer, Header } from "../../components"
+import {AdvancedTactics,Header } from "../../components"
 import Whatsapp from '../../components/Whatsapp/Whatsapp'
 
 
@@ -18,9 +18,6 @@ return(
       <Whatsapp/>
       <AdvancedTactics/>
     </main>
-    <footer>
-      <Footer />
-    </footer>
 </div>
 
 )

@@ -65,10 +65,12 @@ align-items: center;
   .right-col{
 order: 1;
 width: 100vw;
+display: flex;
+justify-content: center;
   }
   .right-col img{
     align-items: center;
-    /* width: 110vw !important; */
+    width: 80%;
   }
 }
 
@@ -87,9 +89,5 @@ width: 100vw;
   .Header .btn{
     width: 100px;
     width: 135px;
-  }
-  
-  .right-col img{
-    width: 100%;
   }
 }
